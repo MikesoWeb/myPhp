@@ -1,3 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> First page on php </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+	<body><p>
+
+
+
+
 <?php
 
 $users ["Trestol",
@@ -13,3 +26,8 @@ $users ["Trestol",
 
 
 ?>
+
+</p>
+</body>
+</html>
+
