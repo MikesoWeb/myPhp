@@ -13,6 +13,7 @@
 
 <?php
 
+$branch = "Add branch";
 $users ["Trestol",
 		"Pupkin",
 		"Wertic",
@@ -21,6 +22,7 @@ $users ["Trestol",
 		foreach ($users as $user) {
 
 			echo $user;
+			echo $branch;
 		
 		}
 
