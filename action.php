@@ -2,24 +2,26 @@
 <?php  
 
 
-$pass = 'Qwertypassword2998'; // пароль в базе данных
+$name = 'Михаил'; // пароль в базе данных
 
-$truePass = 'Qwertypassword2998'; // пароль от пользователя
+$truePass = 12345; // пароль от пользователя
 
 echo '<br>';
 
-echo 'Ваш хеш: ' . md5($pass);
+echo 'Ваш хеш имени: ' . md5($name);
 echo '<br><br>';
-echo 'Ваш хеш: ' . md5($truePass);
+echo 'Ваш хеш пароля: ' . md5($pass);
 
 echo '<br><br>';
 
 
 
-if (md5($pass) == md5($truePass))
+if (md5($name)) == $name
 
 	{echo 'Пароль в базе данных и пароль введеный пользователем совпадают!<br><br>';
 echo 'Здравствуйте ' . htmlspecialchars($_POST['name']);
+echo '<br><br>';
+echo 'Ваш пароль: ' . (int)$_POST['pass'];
 }
 
 else {
@@ -32,7 +34,7 @@ echo '<br>';
 
 
 
-//Вам echo (int)$_POST['age'];  лет.
+
 
 
 
